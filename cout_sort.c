@@ -1,5 +1,5 @@
-#include <stido.h>
+#include <stdio.h>
 
 void cout_sort(){
-    
+
 }
