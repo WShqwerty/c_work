@@ -30,10 +30,13 @@ void merge_sort_recursive(int arr[], int reg[], int start, int end) {
     int k = start;
     while (start1 <= end1 && start2 <= end2)
         reg[k++] = arr[start1] < arr[start2] ? arr[start1++] : arr[start2++];
+        printf("%d, %d\n", arr[start1], arr[start2]);
     while (start1 <= end1)
         reg[k++] = arr[start1++];
+        printf("%d, %d\n", arr[start1], arr[start2]);
     while (start2 <= end2)
         reg[k++] = arr[start2++];
+        printf("%d, %d\n", arr[start1], arr[start2]);
     for (k = start; k <= end; k++)
         arr[k] = reg[k];
 }
