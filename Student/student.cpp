@@ -21,5 +21,5 @@ void student::display(){
 }
 
 student::~student(){
-    cout<<"worked!"<<endl;
+    cout<<"Destructor is called!"<<endl;
 }
