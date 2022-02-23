@@ -8,7 +8,7 @@ teacher::teacher(int Id, string Name){
 }
 
 teacher::~teacher(){
-    cout<<"teacher Desturctor is called!"<<endl;
+    cout<<"teacher Destrcctor is called!"<<endl;
 }
 
 void teacher::display(){
