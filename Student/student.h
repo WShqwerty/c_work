@@ -11,6 +11,7 @@ private:
     string Name;
     Point p1;
 public:
+    friend class teacher;   // 破坏了封装。
     student(){};
     student(int Id, string Name);
     student(int Id, string Name, int C, int M, int E);

@@ -9,7 +9,7 @@ Point::Point(int C, int M, int E){
 }
 
 Point::~Point(){
-    cout<<"Destructor is called!"<<endl;
+    cout<<"point Destructor is called!"<<endl;
 }
 
 void Point::display(){
