@@ -2,6 +2,20 @@
 #include "matrix_func.h"
 using namespace std;
 
+void Solution::func(int **a,int n,int m)
+{
+    int i,j;    
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < m; j++)
+        {
+            printf("%d\t",a[i][j]);
+        }
+        printf("\n");
+    }
+    
+}
+
 void Solution::move(int a[],int n)
 {
     int i,t=a[0];
