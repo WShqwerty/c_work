@@ -53,6 +53,7 @@
         输入：1，0，0，0，0，1，0，0，0
         结果：2天
 ![example1](https://user-images.githubusercontent.com/51808365/157042843-66b28d83-5e8c-4631-81b4-db00dd967eae.png)
+        
         文件夹中的fast文件是未完成品。
         fast文件中的内容为：
                 地图大小一定，n个病毒，求解最快感染全图的天数和病毒分布。
