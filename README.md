@@ -29,4 +29,4 @@
                 问几天能感染地图全部区域。
                 输入：1，0，0，0，0，1，0，0，0
                 结果：2天
-                ![avatar](/example1.png)
+![example1](https://user-images.githubusercontent.com/51808365/157042843-66b28d83-5e8c-4631-81b4-db00dd967eae.png)
