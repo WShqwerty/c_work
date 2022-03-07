@@ -43,6 +43,7 @@
                 0,0,0,1,1
                 输出：
                 118
+![example2](https://user-images.githubusercontent.com/51808365/157044818-4d0b3595-805b-4fc7-9a2f-125c03bdd57c.png)
 
 
 ##      4:病毒感染，穷举算法，n*n的地图。（详情见other文件夹中的matrix_get_virus文件夹，main为可执行文件。)
