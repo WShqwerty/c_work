@@ -2,7 +2,7 @@
 #include "solution.h"
 using namespace std;
 
-#define MAX_SIZE 20
+#define MAX_SIZE 30
 
 int main(void){
     solution s;
@@ -53,49 +53,12 @@ int main(void){
 
     /* 初始化*/
     
-    int count = 0;
-    int days_count = 0;
-    int virus_get[n][n+1];
-
-    /* 进行统计。*/
-    while(count<n){
-        count = 0;
-        for(int i=0;i<n;i++){
-            int arr[n+1];
-                // cout<<"worked! 5"<<endl;
-            int *arr_new = s.find_virus(a[i], n, arr);
-            if(arr_new[n] == -2){
-                count++;    
-            }
-            for(int j = 0;j<=n;j++){
-                virus_get[i][j] = arr_new[j];
-            }
-                
-        }   
-
-        for(int i = 0;i<n;i++){
-            for(int j = 0;j<n;j++){
-                if(virus_get[i][j] != -1){
-                    int *p[n];
-                    for(int k=0;k<n;k++){
-                        p[k] = a[k];
-                    }
-                    // cout<<"i:"<<i<<"\tj:"<<virus_get[i][j]<<endl;
-                    s.get_virus(p,n,i,virus_get[i][j]);
-                }
-            }
-        }
-        days_count++;
-    }
-    
-
+    int *p[n];
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            cout<<a[i][j]<<"\t";
-        }
-        cout<<endl;
+        p[i] = a[i];
     }
-    cout<<endl;
+
+    int days_count = s.find_days(p,n);
 
     cout<<"一共要"<<days_count-1<<"天时间感染全部地区！"<<endl;
 
