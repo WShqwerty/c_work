@@ -110,13 +110,13 @@ int solution::find_days(int **arr_get, int n){
     }
     
 
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            cout<<a[i][j]<<"\t";
-        }
-        cout<<endl;
-    }
-    cout<<endl;
+    // for(int i=0;i<n;i++){
+    //     for(int j=0;j<n;j++){
+    //         cout<<a[i][j]<<"\t";
+    //     }
+    //     cout<<endl;
+    // }
+    // cout<<endl;
 
     return days_count;
 }
