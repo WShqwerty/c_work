@@ -6,6 +6,5 @@ int main(void){
     printf("%d\n", add(1, 2));
     printf("%d\n", mutiply(2,2));
 
-
     return 0;
 }
